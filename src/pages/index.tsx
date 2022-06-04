@@ -15,8 +15,8 @@ const Home: NextPage = () => {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, scale: 0.95 }}
                         transition={{ ease: "easeOut", duration: 0.6 }}>
-                <div className="w-full h-[100vh] flex flex-col items-center justify-center text-white text-5xl font-semibold">
-                    Hey, 👋 I am Zaib.
+                <div className="w-full h-[100vh] flex flex-col items-center justify-center text-center text-white text-5xl font-semibold">
+                    Hey,👋 I am Zaib.
                     <div className="flex flex-row space-x-4">
                         <GitHubButton />
                         <TwitterButton />
